@@ -162,7 +162,7 @@ class _EnsureVisibleWhenFocusedState extends State<EnsureVisibleWhenFocused>
 
     position.ensureVisible(
       object,
-      alignment: widget.alignment ?? alignment,
+      alignment: 0.3,
       duration: widget.duration,
       curve: widget.curve,
     );
